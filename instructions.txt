@@ -1,0 +1,35 @@
+1.Home Page
+	=>. NavBar
+		->. Brand
+		->. Subscribe Btn
+	=>. Small Desc
+	=>. Course Cards
+		->. HTML
+		->. CSS
+		->. Bootstrap
+		->. TailwindCSS
+		->. JavaScript
+		->. TypeScript
+		->. ReactJS
+		->. NodeJS
+		->. ExpressJS
+		->. MongoDB
+		->. Git-GitHub
+		->. Spoken English
+	=>. Footer
+		->. Subscribe Btn
+
+2.Course Card
+	=>. NavBar
+		->. Brand
+		->. Back Btn
+	=>. Course Title
+	=>. Course Desc
+	=>. Table of Contents
+	=>. Topic Card
+		->. Topic Title
+		->. Topic Desc
+		->. Code Screenshot
+	=>. Footer
+		->. Thanks Note
+		->. Subscribe Btn

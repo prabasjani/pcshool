@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.brand > h2 {
+  letter-spacing: 7px;
+}
+.subModal {
+  height: 75vh;
+}
+.subscriptionModal {
+  margin-left: 25%;
+  margin-top: 5%;
+  z-index: 999;
+  animation: fadeIn 0.5s linear;
+}
+
+.subscriptionModal > div > input {
+  width: 400px;
+}
+.courseCard {
+  transition: all 0.5s ease-in-out;
+}
+.courseCard:hover {
+  transform: scale(1.1);
+}
+.cardImg {
+  height: 70px;
+  width: 70px;
+}
+@keyframes appear {
+  from {
+    opacity: 0;
+    scale: 0.5;
+    /* transform: translateX(-200%); */
+  }
+  to {
+    opacity: 1;
+    scale: 1;
+    /* transform: translateX(0); */
+  }
+}
+
+.topicBlock {
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+/* Subscription modal animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(200%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+}
