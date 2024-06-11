@@ -46,6 +46,20 @@
   animation-timeline: view();
   animation-range: entry 0% cover 40%;
 }
+.courseTopics {
+  margin-bottom: 100px;
+}
+
+.codeImg {
+  transition: all 0.3s ease-in;
+  /* position: absolute; */
+  right: 0;
+}
+
+.codeImg:hover {
+  transform: translateX(-350px) scale(2);
+  z-index: 9999;
+}
 
 /* Subscription modal animation */
 @keyframes fadeIn {

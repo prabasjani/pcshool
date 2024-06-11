@@ -19,7 +19,7 @@ const SubscribeModal = () => {
         <div className="d-flex flex-column justify-content-center align-items-center border-1 w-50 shadow-lg  my-6 p-5 rounded-4 subscriptionModal">
           <h3>Please Subscribe Our Page</h3>
           <form onSubmit={handleSubmit}>
-            <div class="form-floating my-3">
+            <div className="form-floating my-3">
               <input
                 type="email"
                 className="form-control"
